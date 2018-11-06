@@ -1,38 +1,49 @@
 body {
+margin: 0;
 display: grid;
-grid-template: 1fr 1fr / 100%;
 font-family: Lucida Grande;
 
 }
+.head1 {
+  padding-left: 20%;
+  color: white;
 
+}
 .heading {
-  width: 100%;
-  background-color: #39539D;
-  grid-column-start: 1;
-  grid-column-end: span end;
+  background-color: #4760A4;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.f1 {
+.form1 {
   display: flex;
+  color: white;
 
 }
 
 .main {
   display: flex;
-  justify-content: center;
+  background-color: #EDF0F6;
+
 }
 
 .lside {
-
   background-color: #EDF0F6;
+  padding-left: 10%;
+
+}
+
+.icons {
+ align-items: baseline;
 }
 
 .rside {
 background-color: #EDF0F6;
+padding-right: 40%;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
