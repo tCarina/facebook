@@ -2,8 +2,14 @@ body {
 margin: 0;
 font-family: Lucida Grande;
 background-color: #eceff5;
-
+line-height: 1.34;
 }
+
+a {
+    color: #365899;
+    cursor: pointer;
+}
+
 .head1 {
   padding-left: 20%;
   color: white;
@@ -32,6 +38,7 @@ background-color: #eceff5;
 .main {
   display: flex;
   background-color: #EDF0F6;
+  padding-bottom: 20px;
 
 }
 
@@ -58,9 +65,20 @@ width: 565px;
 .rside {
 background-color: #EDF0F6;
 width: 399px;
+justify-content: space-between;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
+.pf {
+  background-color: white;
+  width: 980px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.languages {
+   display:flex;
+   bottom: 0;
+   color: #365899;
+
 }
