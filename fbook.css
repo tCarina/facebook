@@ -1,7 +1,7 @@
 body {
 margin: 0;
-display: grid;
 font-family: Lucida Grande;
+background-color: #eceff5;
 
 }
 .head1 {
@@ -16,6 +16,13 @@ font-family: Lucida Grande;
 
 }
 
+.h1 {
+  margin: 5px;
+}
+.l1 {
+  padding: 42px 0 24px;
+
+}
 .form1 {
   display: flex;
   color: white;
@@ -29,18 +36,28 @@ font-family: Lucida Grande;
 }
 
 .lside {
+  flex-direction: column;
   background-color: #EDF0F6;
-  padding-left: 10%;
+  padding-left: 15%;
+  padding-bottom: 3fr;
 
+}
+
+.l2 {
+  font-size: 19px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .icons {
- align-items: baseline;
+width: 565px;
+
 }
+
 
 .rside {
 background-color: #EDF0F6;
-padding-right: 40%;
+width: 399px;
 }
 
 .footer {
